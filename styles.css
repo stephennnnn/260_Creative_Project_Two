@@ -1,0 +1,63 @@
+body {
+  background-image: image();
+  background-color: lightgrey;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  color: black;
+  text-align: center;
+}
+
+img {
+  height: 400px;
+  width: auto;
+}
+
+.quote-div {
+  /* background-color: grey; */
+  font-size: 4em;
+}
+
+/* header */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: grey;
+  /* color: white; */
+  color: white;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+/* footer */
+.footer {
+  background-color: grey;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  display: block;
+  /* make sticky */
+  margin-top: auto;
+}
+
+/* github link */
+.github-link:link {
+  color: white;
+}
+
+.github-link:visited {
+  color: white;
+}
+
+.github-link:hover {
+  color: black;
+}
+
+.github-link:active {
+  color: black;
+}
